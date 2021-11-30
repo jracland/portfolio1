@@ -1,0 +1,186 @@
+/* #F1F6F9 #14274E #394867 #9BA4B4 #EAF6F6 #f5d223 #f2a624*/
+
+/* Pacifico, Cursive - Merriweather, serif - Outfit, sans-serif */
+
+/* Gradient circle to transparent = background: radial-gradient(circle, #EAF6F6, transparent); */
+
+/************************ General ************************/
+
+body {
+  background-color:  #EAF6F6;
+  margin: 0;
+  text-align: center;           
+}
+
+h1 {
+  color: #14274E;
+  margin: 0 auto 30px;
+  font-family: Merriweather, serif;
+  font-size: 8rem;
+}
+
+h2 {
+  color: #394867;
+  font-family: Merriweather, serif;
+}
+
+h3 {
+  color: #394867;
+  font-family: Merriweather, serif;
+}
+
+hr {
+  background-color: none;
+  border-style: none;
+  border-top: dotted 10px #9BA4B4;
+  height: 0px;
+  margin: 60px auto;
+  width: 20%;
+}
+
+p {
+  font-family: Outfit, sans-serif;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+
+/************************ divs ************************/
+
+
+.navbar {
+  background-color: #14274E;
+  border-style: solid;
+  border: 4px 0 black;
+  height: 65px;
+  padding: 0;
+  position: sticky;
+}
+
+.navbutton {
+  color: #F1F6F9;
+  float: left;
+  font-family: Outfit, sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 150px;
+}
+
+.navbutton:hover {
+  background-color: #F1F6F9;
+  color: #14274E;
+}
+
+.navbuttoncta {
+  float: right;
+  height: 40px;
+  margin: 0;
+  Padding: 20 10 20 10;
+  width: 20%;
+}
+
+.splash {
+  background-image: url("../img/mountains.jpg");
+  background-color: #394867;
+  background-size: cover;
+  height: 720px;
+  margin: 0;
+  padding-top: 150px;
+  position: relative;
+  width: 100%;
+}
+
+.my-story-div, .skills-div, .projects-div, .blog-div, .cta-div, .contact-div {
+  background-color: #F1F6F9;;
+  box-shadow: 0 0 10px ;
+  margin: 60px auto 0 auto;
+  padding: 30px;
+  width: 50%;
+}
+
+
+.bottom-container {
+  background-color: #394867;
+  margin-bottom: 0;
+  padding: 30px;
+}
+
+
+/************************ text ************************/
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1.5rem;
+}
+
+.my-story {
+  text-align: left;
+  margin: auto auto 30px;
+  width: 90%;
+}
+
+.subheading {
+  font-size: 3rem;
+}
+
+
+
+/************************ images ************************/
+
+.indexpic {
+  float: left;
+  margin: auto 30px;
+}
+
+.langicon {
+  width: 100px;
+}
+
+.socials {
+  max-width: 100px;
+  margin: 10px;
+  opacity: 0.5;
+}
+
+.socials:hover {
+  opacity: 1;
+}
+
+
+/************************ other ************************/
+
+
+.btn {
+  background: #f5d223;
+  background-image: -webkit-linear-gradient(top, #f5d223, #f2a624);
+  background-image: -moz-linear-gradient(top, #f5d223, #f2a624);
+  background-image: -ms-linear-gradient(top, #f5d223, #f2a624);
+  background-image: -o-linear-gradient(top, #f5d223, #f2a624);
+  background-image: linear-gradient(to bottom, #f5d223, #f2a624);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  border: solid #14274E; 
+  box-shadow: 0 0 10px ;
+  color: #14274E;
+  display: inline-block;
+  font-family: Merriweather, serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #47597d;
+  background-image: -webkit-linear-gradient(top, #47597d, #3498db);
+  background-image: -moz-linear-gradient(top, #47597d, #3498db);
+  background-image: -ms-linear-gradient(top, #47597d, #3498db);
+  background-image: -o-linear-gradient(top, #47597d, #3498db);
+  background-image: linear-gradient(to bottom, #47597d, #3498db);
+  color:#EAF6F6;
+  cursor: pointer;
+  text-decoration: none;
+}
